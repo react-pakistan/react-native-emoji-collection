@@ -10,7 +10,7 @@
     "build": "yarn clean && yarn build:ts && cp package.json lib && cp README.md lib",
     "build:ts": "tsc --project tsconfig.build.json",
     "clean": "yarn rimraf ./lib",
-    "generate-icons": "scripts/generate-emojis.sh",
+    "generate-emojis": "scripts/generate-emojis.sh",
     "ios": "yarn clean && yarn prestorybook && react-native run-ios",
     "lint": "yarn lint:ts && yarn lint:css",
     "lint-staged": "lint-staged",
