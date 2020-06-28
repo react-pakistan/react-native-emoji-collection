@@ -1,11 +1,11 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { Icon } from '../icon';
+import { Emoji } from '../emoji';
 
-describe('Testing Icon component', () => {
-  it('matches Icon snapshot,', () => {
+describe('Testing Emoji component', () => {
+  it('matches Emoji snapshot,', () => {
     const wrapper = renderer.create(
-      <Icon icon="BlockchainColor1" />,
+      <Emoji emoji="BlockchainColor1" />,
     );
     expect(wrapper.toJSON()).toMatchSnapshot();
   });
