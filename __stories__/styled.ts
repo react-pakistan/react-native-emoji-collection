@@ -7,7 +7,7 @@ export const StyledView = styled.View`
   flex-flow: row wrap;
 `;
 
-export const IconWrapper = styled.View`
+export const EmojiWrapper = styled.View`
   align-items: center;
   flex-direction: column;
   height: 100px;

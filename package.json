@@ -1,7 +1,7 @@
 {
-  "name": "@taimoormk/react-native-icon-collection",
-  "version": "1.0.3",
-  "description": "React Native Icons Collection built upon React Native StoryBook",
+  "name": "@taimoormk/react-native-emoji-collection",
+  "version": "1.0.0",
+  "description": "React Native Emojis Collection built upon React Native StoryBook",
   "module": "index.js",
   "main": "index.js",
   "types": "index.d.tsx",
@@ -10,7 +10,7 @@
     "build": "yarn clean && yarn build:ts && cp package.json lib && cp README.md lib",
     "build:ts": "tsc --project tsconfig.build.json",
     "clean": "yarn rimraf ./lib",
-    "generate-icons": "scripts/generate-icons.sh",
+    "generate-emojis": "scripts/generate-emojis.sh",
     "ios": "yarn clean && yarn prestorybook && react-native run-ios",
     "lint": "yarn lint:ts && yarn lint:css",
     "lint-staged": "lint-staged",
@@ -80,14 +80,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Taimoormk/react-native-icon-collection.git"
+    "url": "git+https://github.com/Taimoormk/react-native-emoji-collection.git"
   },
   "author": "Taimoor Khan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Taimoormk/react-native-icon-collection/issues"
+    "url": "https://github.com/Taimoormk/react-native-emoji-collection/issues"
   },
-  "homepage": "https://github.com/Taimoormk/react-native-icon-collection#readme",
+  "homepage": "https://github.com/Taimoormk/react-native-emoji-collection#readme",
   "husky": {
     "hooks": {
       "pre-commit": "yarn lint-staged",
