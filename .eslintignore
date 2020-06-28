@@ -1,0 +1,8 @@
+# Ignore auto generated storyLoader.js file
+__stories__/story-loader.js
+scripts/
+src/xml/
+
+# Ignore misc folder
+.vscode/
+lib/

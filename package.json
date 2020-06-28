@@ -1,0 +1,119 @@
+{
+  "name": "@taimoormk/react-native-icon-collection",
+  "version": "1.0.3",
+  "description": "React Native Icons Collection built upon React Native StoryBook",
+  "module": "index.js",
+  "main": "index.js",
+  "types": "index.d.tsx",
+  "scripts": {
+    "android": "yarn clean && yarn prestorybook && react-native run-android",
+    "build": "yarn clean && yarn build:ts && cp package.json lib && cp README.md lib",
+    "build:ts": "tsc --project tsconfig.build.json",
+    "clean": "yarn rimraf ./lib",
+    "generate-icons": "scripts/generate-icons.sh",
+    "ios": "yarn clean && yarn prestorybook && react-native run-ios",
+    "lint": "yarn lint:ts && yarn lint:css",
+    "lint-staged": "lint-staged",
+    "lint:css": "stylelint 'src/**/*.ts' --config stylelint.config.js",
+    "lint:ts": "eslint --config eslint.config.js .",
+    "pod:install": "cd ./ios && pod install && cd ..",
+    "prestorybook": "rnstl",
+    "publish:github": "cd lib/ && npm publish && cd ..",
+    "publish:npm": "cd lib/ && npm publish --access public && cd ..",
+    "start": "react-native start",
+    "storybook": "start-storybook -p=9002",
+    "test": "jest",
+    "upgrade": "ncu -u"
+  },
+  "dependencies": {
+    "react-native-device-info": "^5.6.1",
+    "react-native-svg": "^11.0.1",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/runtime": "^7.10.3",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-info": "^5.3.19",
+    "@storybook/addon-knobs": "^5.3.19",
+    "@storybook/addon-ondevice-actions": "^5.3.19",
+    "@storybook/addon-ondevice-knobs": "^5.3.19",
+    "@storybook/react-native": "^5.3.19",
+    "@storybook/react-native-server": "^5.3.19",
+    "@taimoormk/eslint-config-shared": "^1.0.18",
+    "@taimoormk/react-commons-collection": "^1.1.10",
+    "@taimoormk/react-native-commons-collection": "^1.0.18",
+    "@types/jest": "^26.0.3",
+    "@types/react": "^16.9.41",
+    "@types/react-native": "^0.62.13",
+    "@types/react-test-renderer": "^16.9.2",
+    "@types/storybook__react": "^5.2.1",
+    "@types/styled-components": "^5.1.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.1.0",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "eslint": "^7.3.1",
+    "husky": "^4.2.5",
+    "jest": "^26.1.0",
+    "lint-staged": "^10.2.11",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react": "^16.13.1",
+    "react-docgen-typescript-loader": "^3.7.2",
+    "react-native": "^0.62.2",
+    "react-native-storybook-loader": "^1.8.1",
+    "react-native-typescript-transformer": "^1.2.13",
+    "react-test-renderer": "^16.13.1",
+    "stylelint": "^13.6.1",
+    "stylelint-config-react-native-styled-components": "^0.3.0",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.10.0",
+    "stylelint-react-native": "^2.2.0",
+    "ts-jest": "^26.1.1",
+    "typescript": "^3.9.5"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Taimoormk/react-native-icon-collection.git"
+  },
+  "author": "Taimoor Khan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Taimoormk/react-native-icon-collection/issues"
+  },
+  "homepage": "https://github.com/Taimoormk/react-native-icon-collection#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint-staged",
+      "pre-push": "yarn test"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "yarn lint"
+    ]
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "config": {
+    "react-native-storybook-loader": {
+      "searchDir": [
+        "./__stories__/"
+      ],
+      "pattern": "*.story.tsx",
+      "outputFile": "./__stories__/story-loader.ts"
+    }
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6",
+    "yarn": "*"
+  }
+}
