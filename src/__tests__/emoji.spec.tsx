@@ -5,7 +5,7 @@ import { Emoji } from '../emoji';
 describe('Testing Emoji component', () => {
   it('matches Emoji snapshot,', () => {
     const wrapper = renderer.create(
-      <Emoji emoji="BlockchainColor1" />,
+      <Emoji emoji="ArtsCrafts1" />,
     );
     expect(wrapper.toJSON()).toMatchSnapshot();
   });
