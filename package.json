@@ -31,8 +31,8 @@
     "styled-components": "^5.1.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.10.3",
-    "@babel/runtime": "^7.10.3",
+    "@babel/core": "^7.10.4",
+    "@babel/runtime": "^7.10.4",
     "@react-native-community/eslint-config": "^2.0.0",
     "@storybook/addon-actions": "^5.3.19",
     "@storybook/addon-info": "^5.3.19",
@@ -41,12 +41,12 @@
     "@storybook/addon-ondevice-knobs": "^5.3.19",
     "@storybook/react-native": "^5.3.19",
     "@storybook/react-native-server": "^5.3.19",
-    "@taimoormk/eslint-config-shared": "^1.0.18",
+    "@taimoormk/eslint-config-shared": "^1.0.20",
     "@taimoormk/react-commons-collection": "^1.1.10",
     "@taimoormk/react-native-commons-collection": "^1.0.18",
     "@types/jest": "^26.0.3",
     "@types/react": "^16.9.41",
-    "@types/react-native": "^0.62.13",
+    "@types/react-native": "^0.62.16",
     "@types/react-test-renderer": "^16.9.2",
     "@types/storybook__react": "^5.2.1",
     "@types/styled-components": "^5.1.0",
@@ -59,7 +59,7 @@
     "husky": "^4.2.5",
     "jest": "^26.1.0",
     "lint-staged": "^10.2.11",
-    "metro-react-native-babel-preset": "^0.59.0",
+    "metro-react-native-babel-preset": "^0.60.0",
     "react": "^16.13.1",
     "react-docgen-typescript-loader": "^3.7.2",
     "react-native": "^0.62.2",
@@ -73,7 +73,7 @@
     "stylelint-processor-styled-components": "^1.10.0",
     "stylelint-react-native": "^2.2.0",
     "ts-jest": "^26.1.1",
-    "typescript": "^3.9.5"
+    "typescript": "^3.9.6"
   },
   "jest": {
     "preset": "react-native"
