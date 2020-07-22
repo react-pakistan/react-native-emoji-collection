@@ -4,12 +4,10 @@
 // https://github.com/elderfo/react-native-storybook-loader.git
 
 function loadStories() {
-	require('./emoji.story');
+  require("./emoji.story");
 }
 
-const stories = [
-	'./emoji.story'
-];
+const stories = ["./emoji.story"];
 
 module.exports = {
   loadStories,
