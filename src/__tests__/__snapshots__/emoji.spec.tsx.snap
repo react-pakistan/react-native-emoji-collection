@@ -17,10 +17,6 @@ exports[`Testing Emoji component matches Emoji snapshot, 1`] = `
         "backgroundColor": "transparent",
         "borderWidth": 0,
       },
-      undefined,
-      Object {
-        "opacity": 1,
-      },
       Object {
         "flex": 0,
         "height": "100%",
@@ -53,97 +49,13 @@ exports[`Testing Emoji component matches Emoji snapshot, 1`] = `
 "
   xmlns="http://www.w3.org/2000/svg"
 >
-  <RNSVGGroup
-    fill={4278190080}
-    fillOpacity={1}
-    fillRule={1}
-    font={Object {}}
-    matrix={
-      Array [
-        1,
-        0,
-        0,
-        1,
-        0,
-        0,
-      ]
-    }
-    opacity={1}
-    originX={0}
-    originY={0}
-    propList={Array []}
-    rotation={0}
-    scaleX={1}
-    scaleY={1}
-    skewX={0}
-    skewY={0}
-    stroke={null}
-    strokeDasharray={null}
-    strokeDashoffset={null}
-    strokeLinecap={0}
-    strokeLinejoin={0}
-    strokeMiterlimit={4}
-    strokeOpacity={1}
-    strokeWidth={1}
-    vectorEffect={0}
-    x={0}
-    y={0}
-  >
+  <RNSVGGroup>
     <RNSVGGroup
-      fill={4278190080}
-      fillOpacity={1}
-      fillRule={1}
-      font={Object {}}
-      matrix={
-        Array [
-          1,
-          0,
-          0,
-          1,
-          0,
-          0,
-        ]
-      }
       name="color"
-      opacity={1}
-      originX={0}
-      originY={0}
-      propList={Array []}
-      rotation={0}
-      scaleX={1}
-      scaleY={1}
-      skewX={0}
-      skewY={0}
-      stroke={null}
-      strokeDasharray={null}
-      strokeDashoffset={null}
-      strokeLinecap={0}
-      strokeLinejoin={0}
-      strokeMiterlimit={4}
-      strokeOpacity={1}
-      strokeWidth={1}
-      vectorEffect={0}
-      x={0}
-      y={0}
     >
       <RNSVGPath
         d="M59,36c-0.25-0.75-0.71-2.1-2-3c-1.56-1.08-3.63-1.01-4-1c-0.76,0.03-1.18,0.16-2,0c-0.58-0.12-1.53-0.3-2-1 c-0.4-0.59-0.15-1.08,0-3c0.12-1.51,0.17-2.27,0-3c-0.37-1.58-1.49-2.56-2-3c-1.05-0.92-2.38-1.56-5-2c-1.82-0.31-4.75-0.6-9,0 c-2.15,0.3-5.46,0.87-8,1.72c-1.77,0.58-3.74,1.41-6,3c-0.02,0.01-0.04,0.02-0.05,0.03c-3.44,2.24-5.39,6.2-5.22,10.31 C14.64,57.13,54.56,59.91,59,41C59.09,40.4,59.79,38.35,59,36z M38.21,30.12c-1.53,0-2.76-1.24-2.76-2.76 c0-1.53,1.23-2.76,2.76-2.76h2.71c1.52,0,2.76,1.23,2.76,2.76c0,0.76-0.31,1.45-0.81,1.95s-1.19,0.81-1.95,0.81H38.21z"
         fill={4289034553}
-        fillOpacity={1}
-        fillRule={1}
-        matrix={
-          Array [
-            1,
-            0,
-            0,
-            1,
-            0,
-            0,
-          ]
-        }
-        opacity={1}
-        originX={0}
-        originY={0}
         propList={
           Array [
             "fill",
@@ -154,42 +66,16 @@ exports[`Testing Emoji component matches Emoji snapshot, 1`] = `
             "strokeMiterlimit",
           ]
         }
-        rotation={0}
-        scaleX={1}
-        scaleY={1}
-        skewX={0}
-        skewY={0}
         stroke={null}
-        strokeDasharray={null}
-        strokeDashoffset={null}
         strokeLinecap={1}
         strokeLinejoin={1}
         strokeMiterlimit={10}
-        strokeOpacity={1}
         strokeWidth={2}
-        vectorEffect={0}
-        x={0}
-        y={0}
       />
       <RNSVGCircle
         cx={20}
         cy={33}
         fill={4284592868}
-        fillOpacity={1}
-        fillRule={1}
-        matrix={
-          Array [
-            1,
-            0,
-            0,
-            1,
-            0,
-            0,
-          ]
-        }
-        opacity={1}
-        originX={0}
-        originY={0}
         propList={
           Array [
             "fill",
@@ -199,42 +85,14 @@ exports[`Testing Emoji component matches Emoji snapshot, 1`] = `
           ]
         }
         r={3}
-        rotation={0}
-        scaleX={1}
-        scaleY={1}
-        skewX={0}
-        skewY={0}
         stroke={null}
-        strokeDasharray={null}
-        strokeDashoffset={null}
-        strokeLinecap={0}
-        strokeLinejoin={0}
         strokeMiterlimit={10}
-        strokeOpacity={1}
         strokeWidth={2}
-        vectorEffect={0}
-        x={0}
-        y={0}
       />
       <RNSVGCircle
         cx={25}
         cy={42}
         fill={4284259889}
-        fillOpacity={1}
-        fillRule={1}
-        matrix={
-          Array [
-            1,
-            0,
-            0,
-            1,
-            0,
-            0,
-          ]
-        }
-        opacity={1}
-        originX={0}
-        originY={0}
         propList={
           Array [
             "fill",
@@ -246,42 +104,16 @@ exports[`Testing Emoji component matches Emoji snapshot, 1`] = `
           ]
         }
         r={3}
-        rotation={0}
-        scaleX={1}
-        scaleY={1}
-        skewX={0}
-        skewY={0}
         stroke={null}
-        strokeDasharray={null}
-        strokeDashoffset={null}
         strokeLinecap={1}
         strokeLinejoin={1}
         strokeMiterlimit={10}
-        strokeOpacity={1}
         strokeWidth={2}
-        vectorEffect={0}
-        x={0}
-        y={0}
       />
       <RNSVGCircle
         cx={35}
         cy={45}
         fill={4294765099}
-        fillOpacity={1}
-        fillRule={1}
-        matrix={
-          Array [
-            1,
-            0,
-            0,
-            1,
-            0,
-            0,
-          ]
-        }
-        opacity={1}
-        originX={0}
-        originY={0}
         propList={
           Array [
             "fill",
@@ -291,42 +123,14 @@ exports[`Testing Emoji component matches Emoji snapshot, 1`] = `
           ]
         }
         r={3}
-        rotation={0}
-        scaleX={1}
-        scaleY={1}
-        skewX={0}
-        skewY={0}
         stroke={null}
-        strokeDasharray={null}
-        strokeDashoffset={null}
-        strokeLinecap={0}
-        strokeLinejoin={0}
         strokeMiterlimit={10}
-        strokeOpacity={1}
         strokeWidth={2}
-        vectorEffect={0}
-        x={0}
-        y={0}
       />
       <RNSVGCircle
         cx={45}
         cy={44}
         fill={4291964711}
-        fillOpacity={1}
-        fillRule={1}
-        matrix={
-          Array [
-            1,
-            0,
-            0,
-            1,
-            0,
-            0,
-          ]
-        }
-        opacity={1}
-        originX={0}
-        originY={0}
         propList={
           Array [
             "fill",
@@ -336,190 +140,26 @@ exports[`Testing Emoji component matches Emoji snapshot, 1`] = `
           ]
         }
         r={3}
-        rotation={0}
-        scaleX={1}
-        scaleY={1}
-        skewX={0}
-        skewY={0}
         stroke={null}
-        strokeDasharray={null}
-        strokeDashoffset={null}
-        strokeLinecap={0}
-        strokeLinejoin={0}
         strokeMiterlimit={10}
-        strokeOpacity={1}
         strokeWidth={2}
-        vectorEffect={0}
-        x={0}
-        y={0}
       />
     </RNSVGGroup>
     <RNSVGGroup
-      fill={4278190080}
-      fillOpacity={1}
-      fillRule={1}
-      font={Object {}}
-      matrix={
-        Array [
-          1,
-          0,
-          0,
-          1,
-          0,
-          0,
-        ]
-      }
       name="hair"
-      opacity={1}
-      originX={0}
-      originY={0}
-      propList={Array []}
-      rotation={0}
-      scaleX={1}
-      scaleY={1}
-      skewX={0}
-      skewY={0}
-      stroke={null}
-      strokeDasharray={null}
-      strokeDashoffset={null}
-      strokeLinecap={0}
-      strokeLinejoin={0}
-      strokeMiterlimit={4}
-      strokeOpacity={1}
-      strokeWidth={1}
-      vectorEffect={0}
-      x={0}
-      y={0}
     />
     <RNSVGGroup
-      fill={4278190080}
-      fillOpacity={1}
-      fillRule={1}
-      font={Object {}}
-      matrix={
-        Array [
-          1,
-          0,
-          0,
-          1,
-          0,
-          0,
-        ]
-      }
       name="skin"
-      opacity={1}
-      originX={0}
-      originY={0}
-      propList={Array []}
-      rotation={0}
-      scaleX={1}
-      scaleY={1}
-      skewX={0}
-      skewY={0}
-      stroke={null}
-      strokeDasharray={null}
-      strokeDashoffset={null}
-      strokeLinecap={0}
-      strokeLinejoin={0}
-      strokeMiterlimit={4}
-      strokeOpacity={1}
-      strokeWidth={1}
-      vectorEffect={0}
-      x={0}
-      y={0}
     />
     <RNSVGGroup
-      fill={4278190080}
-      fillOpacity={1}
-      fillRule={1}
-      font={Object {}}
-      matrix={
-        Array [
-          1,
-          0,
-          0,
-          1,
-          0,
-          0,
-        ]
-      }
       name="skin-shadow"
-      opacity={1}
-      originX={0}
-      originY={0}
-      propList={Array []}
-      rotation={0}
-      scaleX={1}
-      scaleY={1}
-      skewX={0}
-      skewY={0}
-      stroke={null}
-      strokeDasharray={null}
-      strokeDashoffset={null}
-      strokeLinecap={0}
-      strokeLinejoin={0}
-      strokeMiterlimit={4}
-      strokeOpacity={1}
-      strokeWidth={1}
-      vectorEffect={0}
-      x={0}
-      y={0}
     />
     <RNSVGGroup
-      fill={4278190080}
-      fillOpacity={1}
-      fillRule={1}
-      font={Object {}}
-      matrix={
-        Array [
-          1,
-          0,
-          0,
-          1,
-          0,
-          0,
-        ]
-      }
       name="line"
-      opacity={1}
-      originX={0}
-      originY={0}
-      propList={Array []}
-      rotation={0}
-      scaleX={1}
-      scaleY={1}
-      skewX={0}
-      skewY={0}
-      stroke={null}
-      strokeDasharray={null}
-      strokeDashoffset={null}
-      strokeLinecap={0}
-      strokeLinejoin={0}
-      strokeMiterlimit={4}
-      strokeOpacity={1}
-      strokeWidth={1}
-      vectorEffect={0}
-      x={0}
-      y={0}
     >
       <RNSVGPath
         d="M59,36c-0.25-0.75-0.71-2.1-2-3c-1.56-1.08-3.63-1.01-4-1c-0.76,0.03-1.18,0.16-2,0c-0.58-0.12-1.53-0.3-2-1 c-0.4-0.59-0.15-1.08,0-3c0.12-1.51,0.17-2.27,0-3c-0.37-1.58-1.49-2.56-2-3c-1.05-0.92-2.38-1.56-5-2c-1.82-0.31-4.75-0.6-9,0 c-2.15,0.3-5.46,0.87-8,1.72c-1.77,0.58-3.74,1.41-6,3c-0.02,0.01-0.04,0.02-0.05,0.03c-3.44,2.24-5.39,6.2-5.22,10.31 C14.64,57.13,54.56,59.91,59,41C59.09,40.4,59.79,38.35,59,36z M38.21,30.12c-1.53,0-2.76-1.24-2.76-2.76 c0-1.53,1.23-2.76,2.76-2.76h2.71c1.52,0,2.76,1.23,2.76,2.76c0,0.76-0.31,1.45-0.81,1.95s-1.19,0.81-1.95,0.81H38.21z"
         fill={null}
-        fillOpacity={1}
-        fillRule={1}
-        matrix={
-          Array [
-            1,
-            0,
-            0,
-            1,
-            0,
-            0,
-          ]
-        }
-        opacity={1}
-        originX={0}
-        originY={0}
         propList={
           Array [
             "fill",
@@ -530,42 +170,16 @@ exports[`Testing Emoji component matches Emoji snapshot, 1`] = `
             "strokeMiterlimit",
           ]
         }
-        rotation={0}
-        scaleX={1}
-        scaleY={1}
-        skewX={0}
-        skewY={0}
         stroke={4278190080}
-        strokeDasharray={null}
-        strokeDashoffset={null}
         strokeLinecap={1}
         strokeLinejoin={1}
         strokeMiterlimit={10}
-        strokeOpacity={1}
         strokeWidth={2}
-        vectorEffect={0}
-        x={0}
-        y={0}
       />
       <RNSVGCircle
         cx={20}
         cy={33}
         fill={null}
-        fillOpacity={1}
-        fillRule={1}
-        matrix={
-          Array [
-            1,
-            0,
-            0,
-            1,
-            0,
-            0,
-          ]
-        }
-        opacity={1}
-        originX={0}
-        originY={0}
         propList={
           Array [
             "fill",
@@ -575,42 +189,14 @@ exports[`Testing Emoji component matches Emoji snapshot, 1`] = `
           ]
         }
         r={3}
-        rotation={0}
-        scaleX={1}
-        scaleY={1}
-        skewX={0}
-        skewY={0}
         stroke={4278190080}
-        strokeDasharray={null}
-        strokeDashoffset={null}
-        strokeLinecap={0}
-        strokeLinejoin={0}
         strokeMiterlimit={10}
-        strokeOpacity={1}
         strokeWidth={2}
-        vectorEffect={0}
-        x={0}
-        y={0}
       />
       <RNSVGCircle
         cx={25}
         cy={42}
         fill={null}
-        fillOpacity={1}
-        fillRule={1}
-        matrix={
-          Array [
-            1,
-            0,
-            0,
-            1,
-            0,
-            0,
-          ]
-        }
-        opacity={1}
-        originX={0}
-        originY={0}
         propList={
           Array [
             "fill",
@@ -622,42 +208,16 @@ exports[`Testing Emoji component matches Emoji snapshot, 1`] = `
           ]
         }
         r={3}
-        rotation={0}
-        scaleX={1}
-        scaleY={1}
-        skewX={0}
-        skewY={0}
         stroke={4278190080}
-        strokeDasharray={null}
-        strokeDashoffset={null}
         strokeLinecap={1}
         strokeLinejoin={1}
         strokeMiterlimit={10}
-        strokeOpacity={1}
         strokeWidth={2}
-        vectorEffect={0}
-        x={0}
-        y={0}
       />
       <RNSVGCircle
         cx={35}
         cy={45}
         fill={null}
-        fillOpacity={1}
-        fillRule={1}
-        matrix={
-          Array [
-            1,
-            0,
-            0,
-            1,
-            0,
-            0,
-          ]
-        }
-        opacity={1}
-        originX={0}
-        originY={0}
         propList={
           Array [
             "fill",
@@ -667,42 +227,14 @@ exports[`Testing Emoji component matches Emoji snapshot, 1`] = `
           ]
         }
         r={3}
-        rotation={0}
-        scaleX={1}
-        scaleY={1}
-        skewX={0}
-        skewY={0}
         stroke={4278190080}
-        strokeDasharray={null}
-        strokeDashoffset={null}
-        strokeLinecap={0}
-        strokeLinejoin={0}
         strokeMiterlimit={10}
-        strokeOpacity={1}
         strokeWidth={2}
-        vectorEffect={0}
-        x={0}
-        y={0}
       />
       <RNSVGCircle
         cx={45}
         cy={44}
         fill={null}
-        fillOpacity={1}
-        fillRule={1}
-        matrix={
-          Array [
-            1,
-            0,
-            0,
-            1,
-            0,
-            0,
-          ]
-        }
-        opacity={1}
-        originX={0}
-        originY={0}
         propList={
           Array [
             "fill",
@@ -712,22 +244,9 @@ exports[`Testing Emoji component matches Emoji snapshot, 1`] = `
           ]
         }
         r={3}
-        rotation={0}
-        scaleX={1}
-        scaleY={1}
-        skewX={0}
-        skewY={0}
         stroke={4278190080}
-        strokeDasharray={null}
-        strokeDashoffset={null}
-        strokeLinecap={0}
-        strokeLinejoin={0}
         strokeMiterlimit={10}
-        strokeOpacity={1}
         strokeWidth={2}
-        vectorEffect={0}
-        x={0}
-        y={0}
       />
     </RNSVGGroup>
   </RNSVGGroup>
