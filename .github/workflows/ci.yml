@@ -20,11 +20,10 @@ jobs:
         registry-url: "https://npm.pkg.github.com"
         scope: taimoormk
         node-version: ${{ matrix.node-version }}
-    - name: yarn, lint, build, & test 
+    - name: yarn, lint, & test 
       run: |
         yarn
         yarn lint
-        yarn build
         yarn test
       env:
         CI: true
