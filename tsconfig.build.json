@@ -25,9 +25,9 @@
   ],
   "exclude": [
     "./jest",
-    "./src/**/__tests__",
+    "./src/__tests__",
     "./.storybook",
-    "./src/**/__stories__",
+    "./__stories__",
     "./src/**/*.story.tsx",
     "./src/**/props.ts",
     "./src/colors",
