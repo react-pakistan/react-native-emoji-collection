@@ -54,17 +54,17 @@ A generic, Emoji library for React Native apps, following modern approach by bui
 
 ### 📌 Table of Contents 🚀
 
-<!-- - [Demo](#demo) ✨ -->
-- [Technology Stack](#technology-stack) ✨
-- [Installation](#installation) ✨
-- [Usage](#usage) ✨
-- [Styles](#styles) ✨
-- [Tested](#tested) ✨
-- [Contributors](#contributors) ✨
-- [Other Libraries from ReactPakistan](#other-libraries-from-reactpakistan) ✨
-- [Support](#support) ✨
-- [Contact](#contact) ✨
-- [Buy Me Coffee](#buy-me-coffee) ✨
+<!-- - [Demo](#-demo-) ✨ -->
+- [Technology Stack](#-technology-stack-) ✨
+- [Installation](#-installation-) ✨
+- [Usage](#-usage-) ✨
+- [Styles](#-styles-) ✨
+- [Tested](#-tested-) ✨
+- [Contributors](#-contributors-) ✨
+- [Other Libraries from ReactPakistan](#-other-libraries-from-reactpakistan-) ✨
+- [Support](#-support-) ✨
+- [Contact](#-contact-) ✨
+- [Buy Me Coffee](#-buy-me-coffee-) ✨
 
 <!-- ### 📌 Demo 🚀
 
@@ -211,7 +211,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <div>
   <a
-    href="https://taimoormk.github.io/react-icon-collection"
+    href="https://react-pakistan.github.io/react-icon-collection"
     target="_blank"
   >
     <img
@@ -234,7 +234,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <div>
   <a
-    href="https://taimoormk.github.io/react-logo-collection"
+    href="https://react-pakistan.github.io/react-logo-collection"
     target="_blank"
   >
     <img
@@ -290,7 +290,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     />
   </a>
   <a
-    href="https://www.npmjs.com/package/@react-pakistan/react-emoji-collection"
+    href="https://www.npmjs.com/package/@react-pakistan/react-native-icon-collection"
     target="_blank"
   >
     <img
@@ -303,7 +303,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <div>
   <a
-    href="https://react-pakistan.github.io/react-native-icon-collection"
+    href="https://react-pakistan.github.io/react-native-logo-collection"
     target="_blank"
   >
     <img
