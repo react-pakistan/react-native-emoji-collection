@@ -69,3 +69,4 @@ package-lock.json
 lib/
 __screenshots__/
 lib/
+coverage/
