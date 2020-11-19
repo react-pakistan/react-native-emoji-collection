@@ -22,7 +22,8 @@
     "publish:npm": "yarn build && cd lib/ && npm publish --access public && cd ..",
     "start": "react-native start",
     "storybook": "start-storybook -p=9002",
-    "test": "jest",
+    "test": "jest --coverage --config ./jest.config.js",
+    "test:badges": "yarn test && jest-coverage-badges",
     "upgrade": "ncu -u"
   },
   "dependencies": {
