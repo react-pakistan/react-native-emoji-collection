@@ -1,6 +1,6 @@
 {
   "name": "@react-pakistan/react-native-emoji-collection",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "React Native Emojis Collection built upon React Native StoryBook",
   "module": "index.js",
   "main": "index.js",
@@ -13,9 +13,12 @@
     "generate:emojis": "scripts/generate-emojis.sh",
     "ios": "yarn clean && yarn prestorybook && react-native run-ios",
     "lint": "yarn lint:ts && yarn lint:css",
-    "lint:staged": "lint-staged",
     "lint:css": "stylelint 'src/**/*.ts' --config stylelint.config.js",
+    "lint:staged": "lint-staged",
     "lint:ts": "eslint --config eslint.config.js",
+    "major": "npm version major",
+    "minor": "npm version minor",
+    "patch": "npm version patch",
     "pod:install": "cd ./ios && pod install && cd ..",
     "prestorybook": "rnstl",
     "publish:github": "yarn build && cd lib/ && npm publish && cd ..",
@@ -24,7 +27,7 @@
     "storybook": "start-storybook -p=9002",
     "test": "jest --coverage --config ./jest.config.js",
     "test:badges": "yarn test && jest-coverage-badges",
-    "upgrade": "ncu -u"
+    "upgrade": "ncu -u -x react-native-svg"
   },
   "dependencies": {
     "react-native-device-info": "^7.1.0",
