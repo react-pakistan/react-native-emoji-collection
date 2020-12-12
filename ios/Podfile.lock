@@ -296,7 +296,7 @@ PODS:
     - React-Core (= 0.63.4)
     - React-cxxreact (= 0.63.4)
     - React-jsi (= 0.63.4)
-  - RNDeviceInfo (7.2.1):
+  - RNDeviceInfo (7.3.1):
     - React-Core
   - RNSVG (11.0.1):
     - React
@@ -465,7 +465,7 @@ SPEC CHECKSUMS:
   React-RCTText: 5c51df3f08cb9dedc6e790161195d12bac06101c
   React-RCTVibration: ae4f914cfe8de7d4de95ae1ea6cc8f6315d73d9d
   ReactCommon: 73d79c7039f473b76db6ff7c6b159c478acbbb3b
-  RNDeviceInfo: ae953cf4af2775e45597304fc9513a7931ef81ff
+  RNDeviceInfo: 6ecb1d1c87d20e4c62354be0348de23362824dcd
   RNSVG: 67f1f12dae2cef6ed59a42cae74a6b8f5a9e7b46
   Yoga: 4bd86afe9883422a7c4028c00e34790f560923d6
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
