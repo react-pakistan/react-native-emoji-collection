@@ -2007,15 +2007,15 @@
   resolved "https://registry.yarnpkg.com/@react-native-community/viewpager/-/viewpager-4.2.1.tgz#9886d17a04a3a2f260ec246eb52750439e2064b9"
   integrity sha512-VX2tkN0nv7PRem7iS++4tblLKf7RLWemqucDnD6ZIKKBE0s3n7T5vOSAFJyJBH6WucwoUz6HE+0vm8AC3tZDbw==
 
-"@react-pakistan/eslint-config-shared@^1.1.5":
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/@react-pakistan/eslint-config-shared/-/eslint-config-shared-1.1.5.tgz#22cce896562658d277ced912bde7f06c78d68f60"
-  integrity sha512-a4e49UHKouP97/hrAO8co1Vqg3/xVw+0OfYQSsj/5agcqwvbdEWZT9a7Isuui2DxEA3ikswqEgEUYwbdkLXpcA==
+"@react-pakistan/eslint-config-shared@^1.1.7":
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/@react-pakistan/eslint-config-shared/-/eslint-config-shared-1.1.7.tgz#35bf61a3b81838f482686ff01cd93c3ce02aaafd"
+  integrity sha512-CxiTAXOQu63snPpvCa7z9BVv9cXacziuEroQuSCEkCJ9ZoUSab3aeUYnKW3vLpCwkdIIPWny6qiTOk/PDKGIyw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.10.0"
     "@typescript-eslint/parser" "^4.10.0"
     babel-eslint "^10.1.0"
-    eslint "7.15.0"
+    eslint "7.16.0"
     eslint-config-airbnb "^18.2.1"
     eslint-plugin-import "^2.22.1"
     eslint-plugin-jsx-a11y "^6.4.1"
@@ -2033,10 +2033,10 @@
     "@react-native-community/viewpager" "^4.2.1"
     styled-components "^5.2.1"
 
-"@react-pakistan/util-react-native-functions@^1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@react-pakistan/util-react-native-functions/-/util-react-native-functions-1.1.4.tgz#bb270bad4cb06c34eeba5145b303b625aa0441d3"
-  integrity sha512-yrGSbPdDdsNCbVgaCRiQh+JkyzZ+nbXFpnkHHduMM+n4FkB4Qbgnn2G55l6Ge0RtnNLjqPWNa4DLAYUwRi/gwQ==
+"@react-pakistan/util-react-native-functions@^1.1.6":
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@react-pakistan/util-react-native-functions/-/util-react-native-functions-1.1.6.tgz#cff5ad6ef046e1f4825244adf2530a7b6229048c"
+  integrity sha512-CAs60gb2q+VgDPgH0bVRBPiGEBG2xpA6MfWho08bSE9aFaU8Bpe+nYvHVeEpSNWYKap5LLauI31Aw8BG1IsCag==
   dependencies:
     "@microsoft/tsdoc" "^0.12.24"
 
@@ -3317,13 +3317,6 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-native@*":
-  version "0.62.13"
-  resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.62.13.tgz#c688c5ae03e426f927f7e1fa1a59cd067f35d1c2"
-  integrity sha512-hs4/tSABhcJx+J8pZhVoXHrOQD89WFmbs8QiDLNSA9zNrD46pityAuBWuwk1aMjPk9I3vC5ewkJroVRHgRIfdg==
-  dependencies:
-    "@types/react" "*"
-
 "@types/react-native@^0.63.42":
   version "0.63.42"
   resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.63.42.tgz#d0baf405edc646d15d5a7f8e67983b8701c1ea2a"
@@ -3390,14 +3383,13 @@
   dependencies:
     "@storybook/react" "*"
 
-"@types/styled-components@^5.1.6":
-  version "5.1.6"
-  resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-5.1.6.tgz#b47460f1684072576999955b5b5153e6f238622c"
-  integrity sha512-YN1j99dOL92T+76qhQcrPUb2nKZLzawko9j3IIwTHdKloMx20WwcGkBwdpbi8SpAkTc362rgfIllqPdSUplmRw==
+"@types/styled-components@^5.1.7":
+  version "5.1.7"
+  resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-5.1.7.tgz#3cd10b088c1cb1acde2e4b166b3e8275a3083710"
+  integrity sha512-BJzPhFygYspyefAGFZTZ/8lCEY4Tk+Iqktvnko3xmJf9LrLqs3+grxPeU3O0zLl6yjbYBopD0/VikbHgXDbJtA==
   dependencies:
     "@types/hoist-non-react-statics" "*"
     "@types/react" "*"
-    "@types/react-native" "*"
     csstype "^3.0.2"
 
 "@types/tapable@*", "@types/tapable@^1.0.5":
@@ -6948,10 +6940,10 @@ eslint-visitor-keys@^2.0.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-2.0.0.tgz#21fdc8fbcd9c795cc0321f0563702095751511a8"
   integrity sha512-QudtT6av5WXels9WjIM7qz1XD1cWGvX4gGXvp/zBn9nXG02D0utdU3Em2m/QjTnrsk6bBjmCygl3rmj118msQQ==
 
-eslint@7.15.0, eslint@^7.15.0:
-  version "7.15.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.15.0.tgz#eb155fb8ed0865fcf5d903f76be2e5b6cd7e0bc7"
-  integrity sha512-Vr64xFDT8w30wFll643e7cGrIkPEU50yIiI36OdSIDoSGguIeaLzBo0vpGvzo9RECUqq7htURfwEtKqwytkqzA==
+eslint@7.16.0, eslint@^7.16.0:
+  version "7.16.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.16.0.tgz#a761605bf9a7b32d24bb7cde59aeb0fd76f06092"
+  integrity sha512-iVWPS785RuDA4dWuhhgXTNrGxHHK3a8HLSMBgbbU59ruJDubUraXN8N5rn7kb8tG6sjg74eE0RA3YWT51eusEw==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@eslint/eslintrc" "^0.2.2"
@@ -6987,7 +6979,7 @@ eslint@7.15.0, eslint@^7.15.0:
     semver "^7.2.1"
     strip-ansi "^6.0.0"
     strip-json-comments "^3.1.0"
-    table "^5.2.3"
+    table "^6.0.4"
     text-table "^0.2.0"
     v8-compile-cache "^2.0.3"
 
@@ -13581,7 +13573,7 @@ slash@^3.0.0:
   resolved "https://registry.yarnpkg.com/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
   integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
 
-slice-ansi@^2.0.0, slice-ansi@^2.1.0:
+slice-ansi@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/slice-ansi/-/slice-ansi-2.1.0.tgz#cacd7693461a637a5788d92a7dd4fba068e81636"
   integrity sha512-Qu+VC3EwYLldKa1fCxuuvULvSJOKEgk9pi8dZeCVK7TqBfUNTH4sFkk4joj8afVSfAYgJoSOetjx9QWOJ5mYoQ==
@@ -14279,20 +14271,20 @@ symbol.prototype.description@^1.0.0:
     es-abstract "^1.17.0-next.1"
     has-symbols "^1.0.1"
 
-table@^5.2.3:
-  version "5.4.6"
-  resolved "https://registry.yarnpkg.com/table/-/table-5.4.6.tgz#1292d19500ce3f86053b05f0e8e7e4a3bb21079e"
-  integrity sha512-wmEc8m4fjnob4gt5riFRtTu/6+4rSe12TpAELNSqHMfF3IqnA+CH37USM6/YR3qRZv7e56kAEAtd6nKZaxe0Ug==
-  dependencies:
-    ajv "^6.10.2"
-    lodash "^4.17.14"
-    slice-ansi "^2.1.0"
-    string-width "^3.0.0"
-
 table@^6.0.3:
   version "6.0.3"
   resolved "https://registry.yarnpkg.com/table/-/table-6.0.3.tgz#e5b8a834e37e27ad06de2e0fda42b55cfd8a0123"
   integrity sha512-8321ZMcf1B9HvVX/btKv8mMZahCjn2aYrDlpqHaBFCfnox64edeH9kEid0vTLTRR8gWR2A20aDgeuTTea4sVtw==
+  dependencies:
+    ajv "^6.12.4"
+    lodash "^4.17.20"
+    slice-ansi "^4.0.0"
+    string-width "^4.2.0"
+
+table@^6.0.4:
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/table/-/table-6.0.4.tgz#c523dd182177e926c723eb20e1b341238188aa0d"
+  integrity sha512-sBT4xRLdALd+NFBvwOz8bw4b15htyythha+q+DVZqy2RS08PPC8O2sZFgJYEY7bJvbCFKccs+WIZ/cd+xxTWCw==
   dependencies:
     ajv "^6.12.4"
     lodash "^4.17.20"
