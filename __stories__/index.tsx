@@ -1,10 +1,10 @@
 /* eslint-disable global-require, import/no-default-export */
 
+import { theme } from '@react-pakistan/util-react-native-functions';
 import React from 'react';
 import { getStorybookUI, configure } from '@storybook/react-native';
 import { ThemeProvider } from 'styled-components';
 import { loadStories } from './story-loader';
-import { theme } from '@taimoormk/react-native-commons-collection/theme';
 
 import './rn-addons';
 
