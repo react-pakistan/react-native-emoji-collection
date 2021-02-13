@@ -9,10 +9,10 @@ export const Emoji = ({
 
   return (
     <SvgXml
-      width="100%"
-      height="100%"
-      xml={`${iconSvg}`}
       fill={fill}
+      height="100%"
+      width="100%"
+      xml={`${iconSvg}`}
     />
   );
 };
