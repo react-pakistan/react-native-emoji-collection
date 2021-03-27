@@ -1,6 +1,6 @@
 {
   "name": "@react-pakistan/react-native-emoji-collection",
-  "version": "2.2.2",
+  "version": "2.3.0",
   "description": "React Native Emojis Collection built upon React Native StoryBook",
   "module": "index.js",
   "main": "index.js",
@@ -29,7 +29,6 @@
     "test:badges": "yarn test && jest-coverage-badges",
     "upgrade": "ncu -u -x react-native-svg"
   },
-  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.13.13",
     "@babel/runtime": "^7.13.10",
