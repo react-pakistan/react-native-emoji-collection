@@ -1,9 +1,8 @@
-/* eslint-disable global-require, import/no-default-export */
-
+import AsyncStorage from '@react-native-community/async-storage';
+import { StyledStory } from '@react-pakistan/react-native-commons-collection';
 import { theme } from '@react-pakistan/util-react-native-functions';
 import React from 'react';
 import { getStorybookUI, configure } from '@storybook/react-native';
-import { ThemeProvider } from 'styled-components';
 import { loadStories } from './story-loader';
 
 import './rn-addons';
@@ -13,12 +12,17 @@ configure(() => {
   loadStories();
 }, module);
 
-const Storybook = getStorybookUI({ port: 9002, host: 'localhost', onDeviceUI: true });
+const Storybook = getStorybookUI({
+  asyncStorage: AsyncStorage,
+  host: 'localhost',
+  onDeviceUI: true,
+  port: 9002,
+});
 
 // Refer to https://github.com/storybookjs/storybook/tree/master/app/react-native#start-command-parameters
 // To find allowed options for getStorybookUI
 export default () => (
-  <ThemeProvider theme={theme}>
+  <StyledStory theme={theme}>
     <Storybook />
-  </ThemeProvider>
+  </StyledStory>
 );
