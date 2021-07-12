@@ -252,7 +252,7 @@ PODS:
     - React-jsi (= 0.64.2)
     - React-perflogger (= 0.64.2)
   - React-jsinspector (0.64.2)
-  - react-native-pager-view (5.1.10):
+  - react-native-pager-view (5.2.1):
     - React-Core
   - react-native-segmented-control (2.2.2):
     - React-Core
@@ -501,7 +501,7 @@ SPEC CHECKSUMS:
   React-jsi: 67747b9722f6dab2ffe15b011bcf6b3f2c3f1427
   React-jsiexecutor: 80c46bd381fd06e418e0d4f53672dc1d1945c4c3
   React-jsinspector: cc614ec18a9ca96fd275100c16d74d62ee11f0ae
-  react-native-pager-view: 967d50ce0f1b72e434a2d9f3b739ddbf7d5bbf83
+  react-native-pager-view: 2864530d861ab2970beb2cd0b4cf2292cd30cd84
   react-native-segmented-control: 65df6cd0619b780b3843d574a72d4c7cec396097
   react-native-slider: e99fc201cefe81270fc9d81714a7a0f5e566b168
   React-perflogger: 25373e382fed75ce768a443822f07098a15ab737
