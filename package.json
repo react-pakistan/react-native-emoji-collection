@@ -1,6 +1,6 @@
 {
   "name": "@react-pakistan/react-native-emoji-collection",
-  "version": "2.3.10",
+  "version": "2.3.11",
   "description": "React Native Emojis Collection built upon React Native StoryBook",
   "module": "index.js",
   "main": "index.js",
