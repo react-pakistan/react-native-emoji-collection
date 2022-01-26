@@ -1,8 +1,16 @@
 # Ignore auto generated storyLoader.js file
 __stories__/story-loader.js
-scripts/
-src/xml/
 
 # Ignore misc folder
+.github/
+.idea/
+.storybook/
 .vscode/
+__stories__/
+coverage/
+jest.config.js
 lib/
+node_modules/
+scripts/
+src/emoji/
+src/xml/
